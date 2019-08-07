@@ -1,0 +1,20 @@
+[package]
+name = "kube-config"
+version = "0.1.0"
+authors = ["Wojciech Polak <wojciech.polak@anixe.pl>"]
+edition = "2018"
+
+[dependencies]
+base64 = "0.9.3"
+chrono = {version="0.4.6", features=["serde"]}
+dirs = "1.0.4"
+failure = "0.1.5"
+reqwest = "0.9.19"
+serde = {version="1.0.98", features=["derive"]}
+serde_json = "1.0.40"
+serde_yaml = "0.8.9"
+openssl = "0.10.24"
+http = "0.1.18"
+url = "2.1.0"
+time = "0.1.42"
+
